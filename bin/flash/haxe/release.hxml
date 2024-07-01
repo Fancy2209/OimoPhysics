@@ -4,9 +4,7 @@
 -D tools=8.1.2
 -D disable_preloader_assets=1
 -D web
---macro include('oimo.collision')
---macro include('oimo.common')
---macro include('oimo.dynamics')
+--macro include('oimo')
 --macro AddFlashPropertyMeta.find('oimo')
 -dce no
 -swf-version 17

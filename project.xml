@@ -10,9 +10,7 @@
 	
 	<!-- include all of the classes in the com.example package -->
 
-	<haxeflag name="--macro" value="include('oimo.collision')"/>
-	<haxeflag name="--macro" value="include('oimo.common')"/>
-	<haxeflag name="--macro" value="include('oimo.dynamics')"/>
+	<haxeflag name="--macro" value="include('oimo')"/>
 
 	<section if="flash">
 		<!--
