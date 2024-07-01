@@ -1,6 +1,5 @@
 
 -cp src
--cp exports/src
 -cp build_macros/flash
 -D tools=8.1.2
 -D disable_preloader_assets=1

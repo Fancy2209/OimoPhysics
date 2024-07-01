@@ -7,7 +7,6 @@
 	<app file="oimophysics"/>
 
 	<source path="src"/>
-    <source path="exports/src"/>
 	
 	<!-- include all of the classes in the com.example package -->
 
