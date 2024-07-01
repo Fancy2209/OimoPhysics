@@ -10,4 +10,5 @@
 -swf-version 17
 -swf bin/flash/bin/oimophysics.swc
 -D swf-header=800:600:30:FFFFFF
+-D analyzer-optimize
 -cp bin/flash/haxe
