@@ -11,6 +11,6 @@
 -dce no
 -swf-version 17
 -swf bin/flash/bin/oimophysics.swc
--swf-header 800:600:30:FFFFFF
+-D swf-header=800:600:30:FFFFFF
 -cp bin/flash/haxe
 -D final

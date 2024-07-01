@@ -60,6 +60,7 @@ Haxe 4.3.4 or later is required.
 * Use `build-js-demos.hxml` to compile JavaScript demos.
 * Use `build-doc.hxml` to generate API documentation. [dox](https://github.com/HaxeFoundation/dox) is required.
 * Use `build-js-ts.hxml` to compile for JavaScript (modules) library with TypeScript declarations. Requires `hxtsdgen` library. Check comments in that file.
+* Use OpenFL with the command `openfl build flash` to compile a SWC for AS3
 
 ## License
 The MIT License
