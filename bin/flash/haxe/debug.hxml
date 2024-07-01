@@ -1,0 +1,17 @@
+
+-cp src
+-cp exports/src
+-cp build_macros/flash
+-D tools=8.1.2
+-D disable_preloader_assets=1
+-D web
+--macro include('oimo.collision')
+--macro include('oimo.common')
+--macro include('oimo.dynamics')
+--macro AddFlashPropertyMeta.find('oimo')
+-dce no
+-swf-version 17
+-swf bin/flash/bin/oimophysics.swc
+-swf-header 800:600:30:FFFFFF
+-cp bin/flash/haxe
+-debug
