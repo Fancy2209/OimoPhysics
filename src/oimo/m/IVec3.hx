@@ -1,6 +1,6 @@
 package oimo.m;
 
-#if (java || cpp)
+#if (java || cpp || flash)
 class IVec3 {
 }
 #else
